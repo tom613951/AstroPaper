@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: tom613951
 pubDatetime: 2026-05-27T08:53:00Z
 title: 快速上手：如何使用 Markdown 写作？
 postSlug: how-to-write-markdown-post

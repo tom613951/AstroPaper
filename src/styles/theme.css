@@ -7,7 +7,7 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-google-sans-code), "DingTalk JinBuTi", sans-serif;
+  --font-app: "Google Sans Code", "DingTalk JinBuTi", sans-serif;
 }
 
 /* Light theme values */

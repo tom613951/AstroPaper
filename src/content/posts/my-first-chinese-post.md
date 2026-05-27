@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: tom613951
 pubDatetime: 2026-05-27T08:52:00Z
 title: 我的第一篇中文博客：欢迎来到我的个人博客空间！
 postSlug: welcome-to-my-chinese-blog

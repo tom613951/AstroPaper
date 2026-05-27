@@ -1,37 +1,24 @@
 ---
-title: "About"
-description: "A bit about me and this blog."
+title: "关于我"
+description: "关于我和这个博客。"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+欢迎来到我的个人博客！
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+这个博客是我记录学习心得、技术探索和日常生活随笔的个人空间。我喜欢折腾新技术，并乐于将自己在开发和学习中积累的经验通过文字分享出来。
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## 博客技术栈
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+本博客基于以下技术构建：
 
-## Features
+- **核心框架**：[Astro](https://astro.build/) - 现代化的静态网站生成器，拥有极致的性能体验。
+- **样式设计**：[Tailwind CSS](https://tailwindcss.com/) - 响应式且易于扩展的样式系统。
+- **中文字体**：[钉钉进步体](https://page.dingtalk.com/wow/dingtalk/default/dingtalk/eV76rN4u86jR9y4c) - 优雅、现代且永久免费商用的中文黑体。
+- **托管平台**：[Vercel](https://vercel.com) - 配合 GitHub 仓库实现提交代码自动构建部署。
+- **站内搜索**：[Pagefind](https://pagefind.app/) - 极轻量级的本地静态搜索工具。
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## 找到我
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+如果您对我的文章感兴趣，或者想要与我交流，欢迎通过首页底部的社交链接联系我！
 
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+感谢您的到访！🙏🏼

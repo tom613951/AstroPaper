@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://agy-beta.vercel.app/",
+    title: "我的个人博客",
+    description: "记录学习、技术探索与生活随笔的个人博客空间。",
+    author: "tom613951",
+    profile: "https://github.com/tom613951",
     ogImage: "default-og.jpg",
     lang: "zh",
     timezone: "Asia/Shanghai",
@@ -23,15 +23,13 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      enabled: false,
+      url: "https://github.com/tom613951/my-astro-blog/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
+    { name: "github",   url: "https://github.com/tom613951/my-astro-blog" },
     { name: "mail",     url: "mailto:yourmail@gmail.com" },
   ],
   shareLinks: [
