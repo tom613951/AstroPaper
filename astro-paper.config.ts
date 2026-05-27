@@ -24,7 +24,6 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: false,
-      url: "https://github.com/tom613951/my-astro-blog/edit/main/",
     },
     search: "pagefind",
   },
