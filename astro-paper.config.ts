@@ -29,7 +29,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github",   url: "https://github.com/tom613951/my-astro-blog" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "mail",     url: "mailto:tom613951@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
