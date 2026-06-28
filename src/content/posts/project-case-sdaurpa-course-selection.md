@@ -1,6 +1,6 @@
 ---
 author: tom613951
-pubDatetime: 2026-06-28T16:50:00Z
+pubDatetime: 2026-06-28T08:50:00Z
 title: 项目案例分析：基于 Python RPA 与云端控制的教务选课及热度看板系统
 postSlug: project-case-sdaurpa-course-selection
 featured: true
