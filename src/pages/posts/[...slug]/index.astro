@@ -260,7 +260,7 @@ const ogImage = ogImageUrl
   attachCopyButtons();
 
   function renderMermaid() {
-    const mermaidBlocks = Array.from(document.querySelectorAll("pre.language-mermaid"));
+    const mermaidBlocks = Array.from(document.querySelectorAll("pre[data-language='mermaid'], pre.language-mermaid"));
     if (mermaidBlocks.length === 0) return;
     
     mermaidBlocks.forEach((block, index) => {
