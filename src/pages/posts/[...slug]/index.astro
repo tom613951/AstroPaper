@@ -259,6 +259,40 @@ const ogImage = ogImageUrl
   }
   attachCopyButtons();
 
+  function renderMermaid() {
+    const mermaidBlocks = Array.from(document.querySelectorAll("pre.language-mermaid"));
+    if (mermaidBlocks.length === 0) return;
+    
+    mermaidBlocks.forEach((block, index) => {
+      const code = block.querySelector("code");
+      if (!code) return;
+      
+      const div = document.createElement("div");
+      div.className = "mermaid text-center my-6 flex justify-center w-full";
+      div.id = `mermaid-${index}`;
+      div.textContent = code.textContent;
+      
+      // If parent has a copy button wrapper, replace the wrapper instead of pre
+      const parent = block.parentNode;
+      if (parent && parent.tagName === "DIV" && parent.style.position === "relative") {
+        parent.parentNode.replaceChild(div, parent);
+      } else {
+        block.parentNode.replaceChild(div, block);
+      }
+    });
+    
+    if (window.mermaid) {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default';
+      window.mermaid.initialize({ 
+        startOnLoad: false, 
+        theme: theme,
+        securityLevel: 'loose'
+      });
+      window.mermaid.run();
+    }
+  }
+  renderMermaid();
+
   document.addEventListener("astro:after-swap", () =>
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
   );
