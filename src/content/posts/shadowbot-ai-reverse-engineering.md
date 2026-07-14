@@ -468,8 +468,6 @@ function sendSseError(res, message) {
 
 验证发现 Gemini API 完全支持 CORS，从 `http://local.shadowbot.com` Origin 发起的跨域请求直接通过。因此无需服务器代理，改为直连方案。
 
-用户确认：**"现在不需要我的服务器了是吧"** → 是的，不再需要。
-
 服务器上仍保留了 systemd 服务 `gemini-proxy.service`，可通过以下命令停用：
 
 ```bash
