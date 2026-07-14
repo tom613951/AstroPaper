@@ -107,7 +107,7 @@ dnSpy 反编译结果中，关键方法体（如 `ChatGPTApi.GetChatSolutionAsyn
 
 ### 2.6 关键转折：C# 调用链是假线索
 
-通过 Fiddler 抓包确认：
+通过 Reqable 抓包确认：
 
 - C# 侧的 `ChatGPTApi.GetChatSolutionAsync` **仅供非 AI 流程使用**（如技能加载等）
 - **实际 AI 请求由 CefSharp 内嵌浏览器的 JavaScript 发起**，User-Agent 为 `Chrome/106`，Origin 为 `http://local.shadowbot.com`
