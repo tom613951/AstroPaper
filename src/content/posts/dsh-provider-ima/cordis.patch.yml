@@ -1,6 +1,0 @@
-# Register the ima provider without changing the profile's current default
-# model. The plugin reuses the ima web/desktop sign-in captured once from the
-# local profile; ima itself does not need to keep running.
-- insert:
-    - id: llm-ima
-      name: dsh-provider-ima
