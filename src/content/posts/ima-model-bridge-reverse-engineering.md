@@ -1,7 +1,7 @@
 ---
 author: tom613951
 pubDatetime: 2026-09-28T00:00:00Z
-title: ima Model Bridge: 腾讯 ima「问问ima」AI 请求链逆向与模型接入
+title: ima Model Bridge：腾讯 ima「问问ima」AI 请求链逆向与模型接入
 postSlug: ima-model-bridge-reverse-engineering
 featured: true
 draft: false
