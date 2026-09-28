@@ -681,7 +681,23 @@ node check-ima-quota.mjs
 
 ---
 
-## 附录 A：核心算法与常量
+## 附录 A：源码位置
+
+完整插件源码托管于本仓库：
+
+```
+examples/dsh-provider-ima/
+├── package.json
+├── cordis.patch.yml
+├── README.md              使用文档
+└── lib/
+    ├── index.js           插件入口（apply / inject / Config + PiAiAdapter）
+    └── ima-core.js        协议实现（bkn / 凭据 / 建档 / 续期 / SSE 翻译 / shim）
+```
+
+仓库地址：<https://github.com/tom613951/AstroPaper/tree/main/examples/dsh-provider-ima>
+
+## 附录 B：核心算法与常量
 
 ```js
 // bkn —— DJB2 变体
@@ -700,7 +716,7 @@ const IMA_MODELS_PATH  = "/cgi-bin/model_manage/get_models";
 const IMA_ROBOT_TYPE   = 10000;   // 0 会被判为机器人通道
 ```
 
-## 附录 B：错误码
+## 附录 C：错误码
 
 | 错误码 | 出现位置 | 含义 |
 |---|---|---|
@@ -709,7 +725,7 @@ const IMA_ROBOT_TYPE   = 10000;   // 0 会被判为机器人通道
 | `code: 200201` | `session_logic/get_session` | 会话不存在 |
 | `Code: 3` | `assistant/qa` | 业务拒绝（准入层，未进入 QA 服务） |
 
-## 附录 C：参考资料
+## 附录 D：参考资料
 
 - 目标站点：https://ima.qq.com/chat
 - 抓包工具：Chrome DevTools Protocol（`Network` domain）
