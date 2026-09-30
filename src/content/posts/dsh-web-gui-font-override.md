@@ -3,7 +3,7 @@ author: tom613951
 pubDatetime: 2026-09-30T00:00:00Z
 title: DSH Web GUI 字体覆盖：主题 token 逆向、UA 继承链断裂与一个静默的 CSS 语法陷阱
 postSlug: dsh-web-gui-font-override
-featured: false
+featured: true
 draft: false
 tags:
   - 逆向工程
