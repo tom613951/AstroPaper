@@ -28,7 +28,7 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/tom613951/my-astro-blog" },
+    { name: "github",   url: "https://github.com/tom613951" },
     { name: "mail",     url: "mailto:tom613951@gmail.com" },
   ],
   shareLinks: [
